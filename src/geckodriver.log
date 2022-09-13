@@ -1,0 +1,29 @@
+1662277347559	geckodriver	INFO	Listening on 127.0.0.1:62515
+1662277350895	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62516" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileeQMUOr"
+1662277776340	geckodriver	INFO	Listening on 127.0.0.1:62643
+1662277779675	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62644" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileGsglyy"
+1662277789448	Marionette	INFO	Marionette enabled
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileGsglyy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62644/devtools/browser/f929ccb3-d3c0-4bf1-8268-393115a372c5
+1662277828525	Marionette	INFO	Listening on port 62682
+Read port: 62682
+1662277856444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1662277861569	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://secureservercdn.net/50.62.198.97/4fe.66c.myftpupload.com/wp-content/themes/dt-the7/js/desktop.min.js?ver=4.4.4&time=1662197306, line 1: TypeError: c.browser is undefined
+JavaScript error: https://secureservercdn.net/50.62.198.97/4fe.66c.myftpupload.com/wp-content/themes/dt-the7/js/main.min.js?ver=4.4.4&time=1662197306, line 1: TypeError: e.browser is undefined
+JavaScript error: https://secureservercdn.net/50.62.198.97/4fe.66c.myftpupload.com/wp-content/themes/dt-the7/js/main.min.js?ver=4.4.4&time=1662197306, line 3: TypeError: e.browser is undefined
+1662277943577	Marionette	INFO	Stopped listening on port 62682
+[Parent 12484, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1662279906710	geckodriver	INFO	Listening on 127.0.0.1:56163
+1662279910654	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56164" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilebI4f4z"
+1662279924101	Marionette	INFO	Marionette enabled
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilebI4f4z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56164/devtools/browser/fd832cd0-97ac-404c-a2a7-a0f46fc4fe0f
+1662279998596	Marionette	INFO	Listening on port 56203
